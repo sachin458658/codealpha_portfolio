@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <img src="web.jpg" class="logo" />
+
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SKILLS</a></li>
+          <li><a href="#">MYWORKS</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="info">
+        <h3>Hi,I am <span>Sachin Kumar Yadav</span></h3>
+        <h1><span>W</span>eb Designer</h1>
+        <h3>
+          Web designer and developer from UP,India I create <br />websites to do
+          business do bettter <br />
+          online
+        </h3>
+
+        <a href="#">Hire me</a>
+      </div>
+      <div class="image">
+        <img src="girl.png" class="girl" />
+      </div>
+      <div class="icons">
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+      </div>
+    </div>
+
+    <section id="contact-us">
+      <div class="container border border-warning-subtle">
+        <h1 class="text-white text-center mt-5">Contact us</h1>
+        <form class="p-5">
+          <div class="mb-3">
+            <div class="row my-3">
+              <div class="col">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="First name"
+                  aria-label="First name"
+                />
+              </div>
+              <div class="col">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Last name"
+                  aria-label="Last name"
+                />
+              </div>
+            </div>
+            <label for="exampleInputEmail1" class="form-label text-white"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text text-white">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+
+          <div class="col-12">
+            <label for="inputAddress" class="form-label text-white"
+              >Address</label
+            >
+            <input type="text" class="form-control" id="inputAddress" />
+          </div>
+
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label text-white">City</label>
+            <input type="text" class="form-control" id="inputCity" />
+          </div>
+          <div class="col-md-3">
+            <label for="inputState" class="form-label text-white">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label for="inputZip" class="form-label text-white">Zip</label>
+            <input type="text" class="form-control" id="inputZip" />
+          </div>
+
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label text-white" for="exampleCheck1"
+              >Check me out</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <script src=" https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  </body>
+</html>
